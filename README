@@ -1,1 +1,25 @@
 This is a read me file
+
+git commands
+
+sudo apt-get install git
+git config --global user.name "codeMonkey47"
+git config --global user.email "vegesriharsha@gmail.com"
+
+create a repository in git website (Ex : testRepo)
+
+create a folder with the same name in home directory of the virtual box
+
+go into that folder
+
+git init (this makes a repository of that folder)
+
+git remote add origin https://github.com/codeMonkey47/testRepo.git (This will attach the local respository to the one on the website)
+
+created a readme file to commit the file into repository
+
+git add readme (This will add file to the respository -- not commit, you can also use gid add . to add all the files in the current folder to the repository)
+
+git commit -m 'First Commit' (This will actually commit the file with comment)
+
+git push origin master (This cmd will push the file into the repository of the website)
